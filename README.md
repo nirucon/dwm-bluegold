@@ -11,6 +11,8 @@ dwm-hide_vacant_tags-6.2.diff
 
 dwm-uselessgap-20200719-bb2e722.diff
 
+dwm-rotatestack-20161021-ab9571b.diff
+
 Font: Ubuntu Mono
 
 More info: https://dwm.suckless.org/
