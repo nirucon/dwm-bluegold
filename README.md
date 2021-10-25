@@ -16,3 +16,5 @@ dwm-rotatestack-20161021-ab9571b.diff
 Font: Ubuntu Mono
 
 More info: https://dwm.suckless.org/
+
+![screenshot](https://raw.githubusercontent.com/nirucon/dwm-bluegold/main/screenshot.png)
