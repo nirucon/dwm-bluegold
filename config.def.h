@@ -110,7 +110,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ 0,                            XK_Print,  spawn,          SHCMD("scrot -s") },
+	{ 0,                            XK_Print,  spawn,          SHCMD("scrot -s ~/Pictures/Screenshots/scrot_%Y-%m-%d_%H-%M-%S.png") },
 	{ MODKEY|ShiftMask,		XK_w,      spawn,	   SHCMD("firefox") },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
