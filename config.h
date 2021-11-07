@@ -111,6 +111,8 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ 0,                            XK_Print,  spawn,          SHCMD("scrot -s ~/Pictures/Screenshots/scrot_%Y-%m-%d_%H-%M-%S.png") },
+	{ MODKEY|ShiftMask,             XK_F11,      spawn,        SHCMD("systemctl suspend") },
+	{ MODKEY|ShiftMask,             XK_F12,      spawn,        SHCMD("slock") },
 	{ MODKEY|ShiftMask,		XK_w,      spawn,	   SHCMD("brave") },
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
